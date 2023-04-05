@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        //  Q3:print from 0 to 10 and if number 4 is come stop
+        for (int i = 0; i <= 10; i ++) {
+            if (i  == 4) {
+                // 4 = stop
+                break;
+            }
+            // print (0,1,2,3)
+            System.out.println(i);
+        }
+
+
+        }
+    }

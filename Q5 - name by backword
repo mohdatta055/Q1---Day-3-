@@ -1,0 +1,14 @@
+ublic class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        //  Q5: write my name and print
+        String my_name = "MOHAMMED";
+        // print the name by backword
+        for (int i = my_name.length() - 1; i >= 0; i--) {
+            // print( D E M M A H O M)
+            System.out.println(my_name.charAt(i));
+        }
+
+    }
+}
+

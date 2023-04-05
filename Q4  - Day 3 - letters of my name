@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        //  Q4: write my name and print
+        String my_name= "MOHAMMED";
+        // print each letter from my name 
+        for (int i = 0; i<my_name.length() ; i ++) {
+        // print (M O H A M M E D)
+            System.out.println(my_name.charAt(i));
+            }
+        }
+
+
+        }
